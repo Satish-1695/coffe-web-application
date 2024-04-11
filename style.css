@@ -1,0 +1,306 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+}
+.navbar {
+  width: 100%;
+  height: 60px;
+  background-color: #15181b;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo h3 {
+  font-family: sans-serif;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  padding: 0px 80px;
+}
+.navbar .menu .navlinks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  padding: 0px 50px;
+  gap: 30px;
+}
+.navlinks li {
+  list-style-type: none;
+}
+.navlinks li a {
+  font-family: sans-serif;
+  font-size: 15px;
+  list-style-type: none;
+  text-decoration: none;
+  color: white;
+}
+.parent1 {
+  width: 100%;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 70px 0 0 0;
+  /* background-color: azure; */
+  gap: 20px;
+}
+.parent1 h1 {
+  color: white;
+  font-family: "Playfair Display SC", serif;
+  font-size: 70px;
+}
+.img {
+  width: 300px;
+  height: 300px;
+}
+.img img {
+  width: 300px;
+}
+.parent1 button {
+  height: 45px;
+  width: 110px;
+  border: none;
+  outline: none;
+  color: black;
+  font-family: "Roboto";
+  background-color: #ffa500;
+  font-weight: 600;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.parent2 {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 150px 0 0 0;
+  gap: 100px;
+  /* background-color: antiquewhite; */
+}
+.child1 {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 400px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 20px 0;
+  /* border: 2px solid beige; */
+  gap: 20px;
+}
+.child1 h1 {
+  font-family: "Playfair Display SC", serif;
+  color: white;
+  font-size: 50px;
+}
+.child1 p {
+  font-family: "Playfair Display SC", serif;
+  color: white;
+  font-size: 20px;
+  padding: 10px 0 10px 0;
+}
+.child1 button {
+  height: 40px;
+  width: 110px;
+  border: none;
+  outline: none;
+  color: black;
+  font-family: "Roboto";
+  background-color: #ffa500;
+  font-weight: 500;
+  font-size: 16px;
+}
+.img2 {
+  display: flex;
+  width: 500px;
+  height: 500px;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid beige; */
+}
+.img2 img {
+  height: 450px;
+  width: 450px;
+  padding: 10px 0;
+  /* border: 2px solid beige; */
+}
+
+.products {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px 0 0 50px;
+  /* border:1px solid red; */
+}
+.heading {
+   width: 100%;
+  /* height: auto; */
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  /* border:1px solid red; */
+  padding: 30px;
+}
+.products .heading h1 {
+  color: white;
+  font-family: "Playfair Display SC", serif;
+  font-size: 50px;
+  font-weight: 600;
+  text-align: left;
+  /* border:1px solid red; */
+}
+.main-card-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  /* background-color: brown; */
+  /* border: 1px solid green; */
+  gap: 50px;
+  padding: 70px 0 0 0;
+}
+.card-container {
+  width: 25%;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #b97a04;
+  padding: 30px 30px;
+  border-radius: 10px;
+  gap: 20px;
+}
+.card-container h3 {
+  color: white;
+  font-family: "Roboto", serif;
+  font-size: 25px;
+  font-weight: 500;
+}
+.card-items {
+  height: 300px;
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 30px 30px;
+}
+.card-items p {
+  color: white;
+  font-family: "Roboto", serif;
+  font-size: 15px;
+  font-weight: 400;
+}
+.products button {
+  height: 80px;
+  width: 110px;
+  border: none;
+  outline: none;
+  color: black;
+  font-family: "Roboto";
+  background-color: #ffa500;
+  font-weight: 500;
+  font-size: 16px;
+}
+.line-container {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: violet; */
+  /* border: 5px solid blue; */
+  padding: 250px 0 20px 0;
+}
+.line-container hr {
+  width: 50%;
+  /* color: #FFA500; */
+  border-top: 0.5px solid #ffa500;
+}
+.footer-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* background-color:brown; */
+  gap: 55px;
+}
+.footer-items {
+  height: 200px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+  /* background-color: rgb(14, 14, 12); */
+}
+.footer-items h2 {
+  color: white;
+  font-family: "Roboto";
+  font-weight: 600;
+  font-size: 40px;
+}
+.footer-items span {
+  color: #ffa500;
+  font-family: "Roboto";
+  font-size: 40px;
+  font-weight: 600;
+}
+.footer-items p {
+  color: white;
+  font-family: "Roboto";
+  font-weight: 300;
+  font-size: 15px;
+  text-align: center;
+}
+.line-container2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: violet; */
+  /* border: 5px solid blue; */
+  padding: 20px 0 20px 0;
+}
+.line-container2 hr {
+  width: 50%;
+  /* color: #FFA500; */
+  border-top: 0.5px solid #ffa500;
+}
+.endpart {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* background-color: aqua; */
+  padding: 0 0 30px 0;
+}
+.endpart h3 {
+  color: white;
+  font-family: "Roboto";
+  font-size: 15px;
+  font-weight: 650;
+}
+.endpart span {
+  color: #ffa500;
+  font-family: "Roboto";
+  font-weight: 650;
+  font-size: 15px;
+}
